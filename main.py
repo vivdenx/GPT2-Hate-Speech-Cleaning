@@ -4,7 +4,7 @@ import string
 import pandas as pd
 from nltk import word_tokenize
 
-generated_dir = 'data/gpt2/'
+generated_dir = 'data/run3/'
 
 for file in os.listdir(generated_dir):
     if file.startswith('test.csv'):

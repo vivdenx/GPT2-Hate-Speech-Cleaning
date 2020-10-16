@@ -1,8 +1,37 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
+  <component name="BranchesTreeState">
+    <expand>
+      <path>
+        <item name="ROOT" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="LOCAL_ROOT" type="e8cecc67:BranchNodeDescriptor" />
+      </path>
+      <path>
+        <item name="ROOT" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="REMOTE_ROOT" type="e8cecc67:BranchNodeDescriptor" />
+      </path>
+      <path>
+        <item name="ROOT" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="REMOTE_ROOT" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="GROUP_NODE:origin" type="e8cecc67:BranchNodeDescriptor" />
+      </path>
+    </expand>
+    <select />
+  </component>
   <component name="ChangeListManager">
-    <list default="true" id="e46df6b6-6905-4bae-94da-9d6d58d59ab4" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/clean.py" beforeDir="false" afterPath="$PROJECT_DIR$/clean.py" afterDir="false" />
+    <list default="true" id="e46df6b6-6905-4bae-94da-9d6d58d59ab4" name="Default Changelist" comment="Take on data from source.">
+      <change afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/data/run5/gpt2_gentext_hate_355M_run5_1ksamples.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/clean.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/clean_generated_text.py" beforeDir="false" afterPath="$PROJECT_DIR$/clean_generated_text.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/cleaned/cleaned_hate.csv" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/cleaned/cleaned_nohate.csv" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/cleaned/withoutsimilars_hate.csv" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/cleaned/withoutsimilars_nohate.csv" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/gpt2/gpt2_gentext_gpt2_hate_355M_run3.txt" beforeDir="false" afterPath="$PROJECT_DIR$/data/run3/gpt2_gentext_gpt2_hate_355M_run3.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/gpt2/gpt2_gentext_gpt2_nohate_355M_run3.txt" beforeDir="false" afterPath="$PROJECT_DIR$/data/run3/gpt2_gentext_gpt2_nohate_355M_run3.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/main.py" beforeDir="false" afterPath="$PROJECT_DIR$/main.py" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -19,10 +48,19 @@
   </component>
   <component name="PropertiesComponent">
     <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/data/run6" />
     <property name="settings.editor.selected.configurable" value="preferences.lookFeel" />
   </component>
-  <component name="RunManager">
+  <component name="RecentsManager">
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="C:\Users\Windows 10\Documents\GitHub\GPT2-Hate-Speech-Cleaning\data\cleaned\run3" />
+    </key>
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="C:\Users\Windows 10\Documents\GitHub\GPT2-Hate-Speech-Cleaning\data\run6" />
+      <recent name="C:\Users\Windows 10\Documents\GitHub\GPT2-Hate-Speech-Cleaning\data\run5" />
+    </key>
+  </component>
+  <component name="RunManager" selected="Python.clean_generated_text">
     <configuration name="clean" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
       <module name="GPT2-Hate-Speech-Cleaning" />
       <option name="INTERPRETER_OPTIONS" value="" />
@@ -44,8 +82,30 @@
       <option name="INPUT_FILE" value="" />
       <method v="2" />
     </configuration>
+    <configuration name="clean_generated_text" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
+      <module name="GPT2-Hate-Speech-Cleaning" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="C:\Users\Windows 10\anaconda3\python.exe" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+      <option name="IS_MODULE_SDK" value="false" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/clean_generated_text.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Python.clean_generated_text" />
         <item itemvalue="Python.clean" />
       </list>
     </recent_temporary>
@@ -59,6 +119,62 @@
       <option name="presentableId" value="Default" />
       <updated>1602870227007</updated>
     </task>
+    <task id="LOCAL-00001" summary="Take on data from source.">
+      <created>1602870308724</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1602870308725</updated>
+    </task>
+    <task id="LOCAL-00002" summary="Take on data from source.">
+      <created>1602870331304</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1602870331304</updated>
+    </task>
+    <option name="localTasksCounter" value="3" />
     <servers />
+  </component>
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State />
+          </value>
+        </entry>
+      </map>
+    </option>
+  </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="Take on data from source." />
+    <option name="LAST_COMMIT_MESSAGE" value="Take on data from source." />
+  </component>
+  <component name="WindowStateProjectService">
+    <state width="1259" height="163" key="GridCell.Tab.0.bottom" timestamp="1602875313399">
+      <screen x="0" y="0" width="1280" height="680" />
+    </state>
+    <state width="1259" height="163" key="GridCell.Tab.0.bottom/0.0.1280.680@0.0.1280.680" timestamp="1602875313399" />
+    <state width="1259" height="163" key="GridCell.Tab.0.center" timestamp="1602875313399">
+      <screen x="0" y="0" width="1280" height="680" />
+    </state>
+    <state width="1259" height="163" key="GridCell.Tab.0.center/0.0.1280.680@0.0.1280.680" timestamp="1602875313399" />
+    <state width="1259" height="163" key="GridCell.Tab.0.left" timestamp="1602875313399">
+      <screen x="0" y="0" width="1280" height="680" />
+    </state>
+    <state width="1259" height="163" key="GridCell.Tab.0.left/0.0.1280.680@0.0.1280.680" timestamp="1602875313399" />
+    <state width="1259" height="163" key="GridCell.Tab.0.right" timestamp="1602875313399">
+      <screen x="0" y="0" width="1280" height="680" />
+    </state>
+    <state width="1259" height="163" key="GridCell.Tab.0.right/0.0.1280.680@0.0.1280.680" timestamp="1602875313399" />
+    <state x="233" y="60" key="Vcs.Push.Dialog.v2" timestamp="1602870333458">
+      <screen x="0" y="0" width="1280" height="680" />
+    </state>
+    <state x="233" y="60" key="Vcs.Push.Dialog.v2/0.0.1280.680@0.0.1280.680" timestamp="1602870333458" />
+    <state x="609" y="1" width="672" height="678" key="search.everywhere.popup" timestamp="1602871263939">
+      <screen x="0" y="0" width="1280" height="680" />
+    </state>
+    <state x="609" y="1" width="672" height="678" key="search.everywhere.popup/0.0.1280.680@0.0.1280.680" timestamp="1602871263939" />
   </component>
 </project>
